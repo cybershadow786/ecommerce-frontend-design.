@@ -2,7 +2,7 @@ import heroBg from "../../assets/Image/backgrounds/Banner-board-800x420 2.png";
 
 function Hero() {
   return (
-    <section className="w-[85dvw] lg:w-[77dvw] mx-auto bg-white rounded-md p-3 lg:p-4 mt-1">
+    <section className="w-[85dvw] lg:w-[77dvw] mx-auto border border-gray-300 bg-white rounded-md p-3 lg:p-4 mt-1">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-3 lg:gap-4 items-start">
         {/* ===================== Side Menu (LG only) ===================== */}
         <aside className="hidden lg:block lg:col-span-2 p-1">

@@ -1,9 +1,9 @@
 import logo from "../../assets/Layout/Brand/logo-colored.png";
-import germenFlag from "../../assets/Layout1/Image/flags/DE@2x.png"
+import germenFlag from "../../assets/Layout1/Image/flags/DE@2x.png";
 const Header = () => {
   return (
     <header>
-      {/* {Top Section} */}
+      {/* {Top Header Section} */}
       <div className="w-full bg-white border-b border-gray-300">
         <div
           className="
@@ -159,177 +159,110 @@ const Header = () => {
           </div>
         </div>
       </div>
-      {/* {Bottom Section} */}
-      {/* <div className="w-full bg-white border-b border-gray-300 flex items-center justify-between">
-        <div className="mx-auto w-fit max-w-8xl ">
-          <ul className="list-none flex items-center justify-center">
-            <li>
-              <svg
-                width="18"
-                height="12"
-                viewBox="0 0 18 12"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0 12H18V10H0V12ZM0 7H18V5H0V7ZM0 0V2H18V0H0Z"
-                  fill="#1C1C1C"
-                />
-              </svg>
-            </li>
-            <li className="m-3 ml-2">All category</li>
-            <li className="m-3">Hot offers</li>
-            <li className="m-3">Gift boxes</li>
-            <li className="m-3">Projects</li>
-            <li className="m-3">Menu items</li>
-            <li className="m-3">
-              Help
-              <select
-                className="text-gray-500"
-                name="help"
-                id="navHelp"
-              ></select>
-            </li>
-          </ul>
-        </div>
-        <div className="mx-auto w-fit max-w-8xl flex items-center gap-10">
-          <div className="">
-            <h2 className="flex items-center gap-1.5">
-              English, USD{" "}
-              <svg
-                width="12"
-                height="8"
-                viewBox="0 0 12 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.59 0L6 4.58L1.41 0L0 1.41L6 7.41L12 1.41L10.59 0Z"
-                  fill="#8B96A5"
-                />
-              </svg>
-            </h2>
-          </div>
-          <div>
-            <h2 className="flex items-center justify-center gap-1.5">
-                Ship to <img src={germenFlag} alt="Germen" /> <svg
-                width="12"
-                height="8"
-                viewBox="0 0 12 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.59 0L6 4.58L1.41 0L0 1.41L6 7.41L12 1.41L10.59 0Z"
-                  fill="#8B96A5"
-                />
-              </svg>
-            </h2>
-          </div>
-        </div>
-      </div> */}
+      {/* Nav Sections */}
       <div className="w-full bg-white border-b border-gray-300">
-  <div
-    className="
+        <div
+          className="
       mx-auto max-w-7xl w-full
       flex items-center justify-between flex-nowrap
       px-6 lg:px-6 md:px-4
       h-14 lg:h-14 md:h-12
       gap-6
     "
-  >
-    {/* LEFT NAV LINKS */}
-    <div className="flex-1 min-w-0">
-      <ul
-        className="
+        >
+          {/* LEFT NAV LINKS */}
+          <div className="flex-1 min-w-0">
+            <ul
+              className="
           list-none flex items-center flex-nowrap
           gap-6 lg:gap-6 md:gap-4
           text-sm lg:text-sm md:text-xs
           text-gray-900
           whitespace-nowrap
         "
-      >
-        <li className="shrink-0">
-          <svg
-            className="w-5 h-5 lg:w-5 lg:h-5 md:w-4 md:h-4"
-            viewBox="0 0 18 12"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M0 12H18V10H0V12ZM0 7H18V5H0V7ZM0 0V2H18V0H0Z"
-              fill="#1C1C1C"
-            />
-          </svg>
-        </li>
+            >
+              <li className="shrink-0">
+                <svg
+                  className="w-5 h-5 lg:w-5 lg:h-5 md:w-4 md:h-4"
+                  viewBox="0 0 18 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 12H18V10H0V12ZM0 7H18V5H0V7ZM0 0V2H18V0H0Z"
+                    fill="#1C1C1C"
+                  />
+                </svg>
+              </li>
 
-        <li className="shrink-0">All category</li>
-        <li className="shrink-0">Hot offers</li>
-        <li className="shrink-0">Gift boxes</li>
-        <li className="shrink-0">Projects</li>
-        <li className="shrink-0">Menu items</li>
+              <li className="shrink-0">All category</li>
+              <li className="shrink-0">Hot offers</li>
+              <li className="shrink-0">Gift boxes</li>
+              <li className="shrink-0">Projects</li>
+              <li className="shrink-0">Menu items</li>
 
-        <li className="shrink-0 flex items-center gap-1">
-          Help
-          <select
-            className="text-gray-500 bg-transparent outline-none cursor-pointer"
-            name="help"
-            id="navHelp"
-          >
-            <option value=""></option>
-          </select>
-        </li>
-      </ul>
-    </div>
+              <li className="shrink-0 flex items-center gap-1">
+                <select
+                  className="outline-none cursor-pointer"
+                  name="help"
+                  id="navHelp"
+                >
+                  <option value="1" disabled selected hidden >Help</option>
+                  <option value="2">option 2</option>
+                  <option value="3">option 3</option>
+                  <option value="4">option 4</option>``
+                </select>
+              </li>
+            </ul>
+          </div>
 
-    {/* RIGHT SIDE */}
-    <div
-      className="
+          {/* RIGHT SIDE */}
+          <div
+            className="
         flex items-center flex-nowrap
         gap-10 lg:gap-10 md:gap-6
         shrink-0
         text-sm lg:text-sm md:text-xs
         whitespace-nowrap
       "
-    >
-      <h2 className="flex items-center gap-2">
-        English, USD
-        <svg
-          className="w-3 h-3 lg:w-3 lg:h-3 md:w-2.5 md:h-2.5"
-          viewBox="0 0 12 8"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M10.59 0L6 4.58L1.41 0L0 1.41L6 7.41L12 1.41L10.59 0Z"
-            fill="#8B96A5"
-          />
-        </svg>
-      </h2>
+          >
+            <h2 className="flex items-center gap-2 cursor-pointer">
+              English, USD
+              <svg
+                className="w-3 h-3 lg:w-3 lg:h-3 md:w-2.5 md:h-2.5"
+                viewBox="0 0 12 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.59 0L6 4.58L1.41 0L0 1.41L6 7.41L12 1.41L10.59 0Z"
+                  fill="#8B96A5"
+                />
+              </svg>
+            </h2>
 
-      <h2 className="flex items-center gap-2">
-        Ship to
-        <img
-          src={germenFlag}
-          alt="Germen"
-          className="w-6 lg:w-6 md:w-5 h-auto"
-        />
-        <svg
-          className="w-3 h-3 lg:w-3 lg:h-3 md:w-2.5 md:h-2.5"
-          viewBox="0 0 12 8"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M10.59 0L6 4.58L1.41 0L0 1.41L6 7.41L12 1.41L10.59 0Z"
-            fill="#8B96A5"
-          />
-        </svg>
-      </h2>
-    </div>
-  </div>
-</div>
-
+            <h2 className="flex items-center gap-2 cursor-pointer">
+              Ship to
+              <img
+                src={germenFlag}
+                alt="Germen"
+                className="w-6 lg:w-6 md:w-5 h-auto"
+              />
+              <svg
+                className="w-3 h-3 lg:w-3 lg:h-3 md:w-2.5 md:h-2.5"
+                viewBox="0 0 12 8"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.59 0L6 4.58L1.41 0L0 1.41L6 7.41L12 1.41L10.59 0Z"
+                  fill="#8B96A5"
+                />
+              </svg>
+            </h2>
+          </div>
+        </div>
+      </div>
     </header>
   );
 };

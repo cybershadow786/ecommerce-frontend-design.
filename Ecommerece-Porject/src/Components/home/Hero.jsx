@@ -57,7 +57,7 @@ function Hero() {
                 Electronic items
               </h1>
 
-              <button className="mt-3 bg-white px-4 py-2 rounded-md shadow hover:bg-gray-100 transition text-sm">
+              <button className="mt-3 hover:bg-blue-600 hover:text-white bg-white px-4 py-2 rounded-md shadow hover:cursor-pointer transition text-sm">
                 Learn more
               </button>
             </figcaption>
@@ -92,11 +92,11 @@ function Hero() {
               </div>
 
               <div className="mt-2 flex flex-col gap-2">
-                <button className="bg-[linear-gradient(to_right,#127FFF,#0067FF)] text-white px-3 py-2 rounded-md hover:bg-[linear-gradient(to_right,#0067FF,#127FFF)] transition w-full text-xs">
+                <button className="bg-[linear-gradient(to_right,#127FFF,#0067FF)] hover:cursor-pointer text-white px-3 py-2 rounded-md hover:bg-[linear-gradient(to_right,#0067FF,#127FFF)] transition w-full text-xs">
                   Join now
                 </button>
 
-                <button className="bg-white border border-gray-300 text-[#0D6EFD] w-full px-3 py-2 rounded-md text-xs">
+                <button className="hover:bg-blue-600 hover:text-white hover:cursor-pointer bg-white border border-gray-300 text-[#0D6EFD] w-full px-3 py-2 rounded-md text-xs transition">
                   Log in
                 </button>
               </div>

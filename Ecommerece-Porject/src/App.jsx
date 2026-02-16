@@ -2,7 +2,6 @@ import './App.css'
 import Header from './Components/layout/Header'
 import Home from './Components/pages/Home'
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
